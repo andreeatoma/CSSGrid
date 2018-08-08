@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  height: 600px;
+  border: 10px solid var(--yellow);
+  grid-template-columns: repeat(5, 130px);
+  /* grid-template-rows: repeat(5, 100px); */
+  /* justify-items: stretch (default); start; end; center => x axis*/
+  /* justify-items: center;
+  align-items: center; => y axis*/
+  place-items:stretch stretch;
+  /* justify-content: start/end/center/space-around/space-between */
+  justify-content: space-between;
+  align-content: space-between;
+}
+.itm {
+    background: white;
+}
+.itm5 {
+    justify-self: center;
+    align-self: center;
+}
